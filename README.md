@@ -28,17 +28,18 @@ This project demonstrates how to use **Docker Compose** to set up and run a mult
 ## 📁 Directory Structure (Simplified)
 
 ```
-mlops-docker-compose-watch-task/
-├── backend/
-│   ├── Dockerfile
-    ├── app.py
-    └── requirements.txt
-├── frontend/
-│   ├── Dockerfile
-    ├── app.py
-│   └── requirements.txt
-├── docker-compose.yml
-└── README.md
+| Path                   | Description                |
+| ---------------------- | -------------------------- |
+| `backend/`             | Backend service directory  |
+| ├── `Dockerfile`       | Dockerfile for backend     |
+| ├── `app.py`           | Backend application code   |
+| └── `requirements.txt` | Python dependencies        |
+| `frontend/`            | Frontend service directory |
+| ├── `Dockerfile`       | Dockerfile for frontend    |
+| ├── `app.py`           | Frontend application code  |
+| └── `requirements.txt` | Python dependencies        |
+| `docker-compose.yml`   | Docker Compose config file |
+| `README.md`            | Project documentation      |
 ```
 
 ---
