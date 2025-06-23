@@ -31,7 +31,11 @@ This project demonstrates how to use **Docker Compose** to set up and run a mult
 mlops-docker-compose-watch-task/
 ├── backend/
 │   ├── Dockerfile
-    ├── main.py
+    ├── app.py
+    └── requirements.txt
+├── frontend/
+│   ├── Dockerfile
+    ├── app.py
 │   └── requirements.txt
 ├── docker-compose.yml
 └── README.md
@@ -58,7 +62,7 @@ docker-compose up --build
 
 ### 3️⃣ Make File Changes
 
-Edit `app/main.py` or add files to see the watch service in action (automatically reloads or logs the change).
+Edit `backend/app.py` or add files to see the watch service in action (automatically reloads or logs the change).
 
 ---
 
